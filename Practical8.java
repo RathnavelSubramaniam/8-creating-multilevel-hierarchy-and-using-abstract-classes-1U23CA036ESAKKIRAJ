@@ -61,7 +61,7 @@ System.out.println("Parrot Speak");
 }
 public class Practical8 {
 public static void main(String[] args) {
-    Mammal v1 = new Mammal("lion",5,"GrasssLands");
+    Mammal v1 = new Mammal("Lion",5,"GrasssLands");
     Bird v2 = new Bird("Eagle",3,"Brown");
     Parrot v3 =new Parrot("Talking Parrot",2,"Red",true);
         System.out.println(v1.toString());
