@@ -38,7 +38,7 @@
      Bird(String species,int age,String feather)
      {
    super(species,age);
-       this.feather=feather;
+       this.feather=feather;//
      }
      void sound(){
         System.out.println("Birds Sounds");
