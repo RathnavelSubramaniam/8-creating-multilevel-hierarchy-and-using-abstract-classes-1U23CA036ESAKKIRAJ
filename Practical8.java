@@ -65,8 +65,8 @@ public static void main(String[] args) {
     Bird v2 = new Bird("Eagle",3,"Brown");
     Parrot v3 =new Parrot("Talking Parrot",4,"Red",true);
 
-    System.out.println("Are lion and eagle equal?"+v1.equals(v2));
-    System.out.println("Are lion and lion equal?"+v1.equals(v1));
+    System.out.println("Are lion and eagle equal? "+v1.equals(v2));
+    System.out.println("Are lion and lion equal? "+v1.equals(v1));
 
 
 
