@@ -10,7 +10,7 @@
    }
    @Override
    public String toString (){
-     return "Species:"+species+"Age:"+age;
+     return "Species: "+species+","+" Age: "+age;
    }
    @Override
    public boolean equals(Object obj){
@@ -61,10 +61,12 @@ System.out.println("Parrot Speak");
 }
 public class Practical8 {
 public static void main(String[] args) {
-    Mammal v1 = new Mammal("lion",3,"GrasssLands");
+    Mammal v1 = new Mammal("lion",5,"GrasssLands");
     Bird v2 = new Bird("Eagle",3,"Brown");
-    Parrot v3 =new Parrot("Talking Parrot",4,"Red",true);
-
+    Parrot v3 =new Parrot("Talking Parrot",2,"Red",true);
+        System.out.println(v1.toString());
+        System.out.println(v2.toString());
+        System.out.println(v3.toString());
     System.out.println("Are lion and eagle equal? "+v1.equals(v2));
     System.out.println("Are lion and lion equal? "+v1.equals(v1));
 
